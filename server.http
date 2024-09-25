@@ -1,0 +1,14 @@
+###
+GET http://localhost:3000/alltasks
+
+###
+
+POST http://localhost:3000/addtask
+Content-Type: application/json
+
+{
+    "task" : "React"
+}
+
+###
+DELETE http://localhost:3000/todos/788d2c52-6b56-4c91-bcf3-8a5ff00b89ee
